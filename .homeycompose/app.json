@@ -1,0 +1,25 @@
+{
+  "id": "net.biseth.hyundai-tibber-charge",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Hyundai Tibber Charge"
+  },
+  "description": {
+    "en": "Adds Tibber Smart Charge support for Hyundai viechles through Tibber"
+  },
+  "category": [
+    "appliances"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "André Biseth",
+    "email": "andre@biseth.net"
+  }
+}

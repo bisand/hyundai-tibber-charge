@@ -1,4 +1,5 @@
 import { Driver } from 'homey';
+import BlueLinky from 'bluelinky';
 
 class MyDriver extends Driver {
 
@@ -16,15 +17,15 @@ class MyDriver extends Driver {
   async onPairListDevices() {
     return [
       // Example device data, note that `store` is optional
-      // {
-      //   name: 'My Device',
-      //   data: {
-      //     id: 'my-device',
-      //   },
-      //   store: {
-      //     address: '127.0.0.1',
-      //   },
-      // },
+      {
+        name: 'My Device',
+        data: {
+          id: 'my-device',
+        },
+        store: {
+          address: '127.0.0.1',
+        },
+      },
     ];
   }
 }
